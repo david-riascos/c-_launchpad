@@ -1,1 +1,10 @@
-﻿Console.WriteLine("Hello, World!");
+﻿namespace principal
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
