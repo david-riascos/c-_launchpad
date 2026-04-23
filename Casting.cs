@@ -70,17 +70,17 @@ namespace principal
 
             // =============================================
             // CONVERSIÓN CON Convert y Parse
-            // =============================================   
+            // =============================================
             Console.WriteLine("\n=== Convert y Parse ===");
 
-            string textoInt    = "42";
+            string textoInt = "42";
             string textoDouble = "3.14";
-            string textoBool   = "True";
+            string textoBool = "True";
 
-            int    convertido1 = Convert.ToInt32(textoInt);
+            int convertido1 = Convert.ToInt32(textoInt);
             double convertido2 = Convert.ToDouble(textoDouble, CultureInfo.InvariantCulture);
-            bool   convertido3 = Convert.ToBoolean(textoBool);
-            int    parseado    = int.Parse(textoInt);
+            bool convertido3 = Convert.ToBoolean(textoBool);
+            int parseado = int.Parse(textoInt);
 
             Console.WriteLine($"Convert string → int:    \"{textoInt}\"   → {convertido1} | tipo: {convertido1.GetType()}");
             Console.WriteLine($"Convert string → double: \"{textoDouble}\" → {convertido2} | tipo: {convertido2.GetType()}");
